@@ -25,6 +25,8 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.springframework.data:spring-data-elasticsearch:3.0.4.RELEASE')
+	compile('org.elasticsearch:jna:4.5.1')
+	compile('org.springframework.data:spring-data-elasticsearch:3.0.5.RELEASE')
+	compileOnly 'org.projectlombok:lombok:1.16.20'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
